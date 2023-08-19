@@ -1,11 +1,13 @@
 .navbar {
     display: flex;
-    background-color: rgb(93, 93, 241);
+    /* background-color: rgb(93, 93, 241); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 
 .navbar_left {
     display: flex;
-    gap: 70px;
+    gap: 10px;
     padding-left: 10rem;
     cursor: pointer;
 }
@@ -16,11 +18,16 @@
 
 .content h1 {
     font-size: 25px;
+    margin-top: 16px;
 }
 
 .white {
     color: #fff;
+    margin: auto
 }
+/* .navbar_right .white{
+    align-items: end;
+} */
 
 .navbar_right ul{
     display: flex;
@@ -31,10 +38,11 @@
 .navbar_right ul li {
     list-style: none;
     cursor: pointer;
+    display: contents;
 }
 
 
-li:nth-child(8) {
+li:nth-child(7) {
     color: red;
   }
 
@@ -43,7 +51,8 @@ li {
 }
 
 .sub_nav {
-    background-color: bisque;
+    background-color: #9c9c9c;
+    color: white;
     /* padding: 2px; */
 }
 
@@ -56,7 +65,7 @@ li {
     display: flex;
     gap: 30px;
     justify-content: start;
-    padding: 10px;
+    padding: 5px;
     margin-left: 180px;
     flex-wrap: wrap;
 }

@@ -2,16 +2,16 @@
     background-color: rgb(235, 238, 242);
 } */
 .container {
-    margin-top: 7px;
+    margin-top: -8px;
     display: flex;
-    gap: 10px;
+    gap: 5px;
 
 }
 
 .poster {
     flex: 8;
     width: 80%;
-    height: 502PX;
+    height: 441px;
 }
 
 .poster img {
@@ -21,7 +21,7 @@
 
 .image {
     display: flex;
-    gap: 10px;
+    gap: 5px;
     /* justify-content: space-around; */
 }
 
@@ -41,10 +41,11 @@
 .people {
     /* flex: 4; */
     max-width: 340px;
-    height: 240px;
-    border: 3px solid rgb(51, 51, 170);
+    height: 218px;
+    border: 3px solid rgb(123 123 123);
     padding: 5px;
-    background: rgb(93, 93, 241);
+    background: rgb(52, 152, 214);
+    margin-bottom: 5px;
 }
 
 .people h3 {
@@ -57,9 +58,9 @@
 .people-id {
     /* flex: 4; */
     width: 30%;
-    height: 493px;
-    border: 3px solid rgb(51, 51, 170);
-    background: rgb(93, 93, 241);
+    height: 443px;
+    border: 3px solid rgb(123 123 123);
+    background: rgb(52, 152, 214);
     padding: 5px;
 }
 
@@ -76,13 +77,14 @@
     display: flex;
     font-size: 20px;
     color: rgb(225, 219, 219);
-    /* line-height: 18px; */
+    line-height: 18px;
+    margin-top: 5px;
 }
 
 .person img {
     width: 100%;
-    height: 190px;
-    border: 3px solid rgb(51, 51, 170);
+    height: 168px;
+    border: 3px solid rgb(123 123 123);
 }
 
 
@@ -94,34 +96,37 @@
 .desc {
 
     line-height: 18px;
-    border: solid 3px rgb(51, 51, 170);
+    border: solid 3px rgb(123 123 123);
     padding: 10px;
-    max-width: 170px;
-    height: 190px;
+    max-width: 158px;
+    height: 168px;
     color: rgb(225, 219, 219);
 }
 
 .last-update {
     /* background: yellow; */
     display: flex;
-    padding: 0 25px 0 25px;
+    /* padding: 0 25px 0 25px; */
 }
 
 .news {
-    border: solid 3px rgb(93, 93, 241);
+    color: white;
+    border: solid 3px rgb(123 123 123);
     padding: 10px;
-    height: 60px;
+    height: 46px;
     width: 150px;
+    background: rgb(52, 152, 214);
 }
 
 .newsline {
-    border: solid 3px rgb(93, 93, 241);
+    color: red;
+    border: solid 3px rgb(123 123 123);
     padding: 10px;
     /* max-width: 850px; */
     width: 100%;
     /* border: 2px solid red; */
     /* margin-left: -11px; */
-    height: 60px;
+    height: 46px;
     line-height: 18px;
 
 }
@@ -129,28 +134,33 @@
 .newsbox {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center; */
     /* max-width: 973px; */
     /* width: 70%; */
     /* background: red; */
-    margin-top: 10px;
-    padding: 0 -1px 0 0px;
-    gap: 2%;
+    margin-top: 5px;
+    /* padding: 0 -1px 0 0px; */
+    gap: 5px;
+    margin-bottom: 5px;
 }
 
 .boxshape {
-    border: solid 3px rgb(93, 93, 241);
-    background: rgb(93, 93, 241);
+    border: solid 3px rgb(123 123 123);
+    background: rgb(52, 152, 214);
     color: white;
     padding: 10px;
     height: 48px;
-    width: 45%;
+    width: 100%;
     /* padding-inline-end: 439px; */
     /* margin-top: -429px; */
 }
 
 .container-box {
     /* background: green; */
+    margin-top: auto;
 
 }
 
@@ -167,8 +177,12 @@
     justify-content: space-between;
     /* max-width: 971px; */
     width: 100%;
-    gap: 2%;
-    /* margin-top: -389px; */
+    gap: 5px;
+    /* margin-top: 0; */
+}
+.container .newsContainer{
+    padding: 0;
+    margin-top: auto;
 }
 
 .boxshape1 {
@@ -178,11 +192,11 @@
     line-height: 18px;
     height: 60px;
     max-width: 900px; */
-    border: solid 3px rgb(93, 93, 241);
+    border: solid 3px rgb(123 123 123);
     /* background: honeydew; */
     color: black;
     padding: 124px;
-    /* height: 58px; */
+    height: 339px;
     /* max-width: 451px; */
     padding-inline-end: 41px;
     /* margin-top: -352px; */

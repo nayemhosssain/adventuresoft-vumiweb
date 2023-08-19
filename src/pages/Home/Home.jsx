@@ -25,10 +25,10 @@ function HomePage() {
                                     <img src={person} alt="" />
                                 </div>
                                 <p className="desc">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia perferendis voluptate facilis a, aliquid ipsa ratione, qui magnam 
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia perferendis voluptate facilis a, aliquid ipsa ratione.
                                 </p>
                             </div>
-                        </div><br />
+                        </div>
 
                         <div className="people">
                             <h3>জেলা প্রশাসকের বাণী</h3>
@@ -37,7 +37,7 @@ function HomePage() {
                                     <img src={person} alt="" />
                                 </div>
                                 <p className="desc">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia perferendis voluptate facilis a, aliquid ipsa ratione, qui magnam 
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia perferendis voluptate facilis a, aliquid ipsa ratione.
                                 </p>
                             </div>
                         </div>
